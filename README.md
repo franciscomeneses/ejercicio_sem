@@ -1,3 +1,3 @@
 # ejercicio_sem
 
-[Enlace a la ayudantia](https://franciscomeneses.github.io/Seminario/docs/index.html)
+[Enlace a la ayudantia](https://franciscomeneses.github.io/ejercicio_sem/sem_ejercicio.html)
