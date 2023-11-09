@@ -135,9 +135,6 @@ summary(mod_conf_cfa,
 
 ```
 
-```{r}
-modificationindices(mod_conf_cfa) %>% arrange(-mi)  %>% head(10)
-```
 
 
 ```{r, eval=FALSE}
@@ -234,6 +231,11 @@ drawExport("ajuste.png",units = "cm",width = 18,height = 15,ppi = 300)
 
 
 ![](ajuste.png)
+
+```{r}
+modificationindices(mod_conf_cfa) %>% arrange(-mi)  %>% head(10)
+```
+
 
 # Analisis de sendeross
 
@@ -373,6 +375,11 @@ drawExport("ajuste2.png",units = "cm",width = 18,height = 15,ppi = 300)
 
 ![](ajuste2.png)
 
+```{r}
+modificationindices(mod_conf_cfa) %>% arrange(-mi)  %>% head(10)
+```
+
+
 
 # Analisis SEM
 
@@ -499,3 +506,9 @@ drawExport("ajuste3.png",units = "cm",width = 18,height = 15,ppi = 300)
 
 
 ![](ajuste3.png)
+
+
+```{r}
+modificationindices(mod_conf_cfa) %>% arrange(-mi)  %>% head(10)
+```
+
